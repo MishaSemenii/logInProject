@@ -3,13 +3,59 @@
   <head>
     <link rel="stylesheet" href="style.css" />
     <title>Project</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div class="container">
       <img class="mainImage" src="images/illustration.svg" alt="" />
-      <div>
-        <img src="images/logo.svg" alt="">
-        <img src="images/logo.svg" alt="">
+      <div class="rightPanel">
+        <div class="rightContent">
+          <img src="images/logo.svg" alt="" />
+          <div>
+            <div>
+              <div class="title">Login to your Account</div>
+              <div class="subTitle">
+                See what is going on with your business
+              </div>
+            </div>
+            <div class="googleButton">
+              <img src="images/google.svg" alt="" />
+              Continue with Google
+            </div>
+            <div class="alternativeText">
+              ------------- or Sign in with Email -------------
+            </div>
+            <form class="form">
+              <div class="firstForm">
+                Email
+                <input class="input" placeholder="mail@abc.com" type="email" />
+              </div>
+              <div>
+                <div class="firstForm">
+                  Password
+                  <input class="input" placeholder="password" type="password" />
+                </div>
+                <div class="forgotPassword">
+                  <div class="checkboxContainer">
+                    <input class="checkbox" id="rememberMe" type="checkbox" />
+                    <label for="rememberMe">Remember Me</label>
+                  </div>
+                  <div class="redText">Forgot Password?</div>
+                </div>
+              </div>
+              <button type="submit" class="submitButton">Login</button>
+            </form>
+          </div>
+          <div class="footer">
+            <div class="question">Not Registered Yet?</div>
+            <div class="createAccount">Create an account</div>
+          </div>
+        </div>
       </div>
     </div>
   </body>

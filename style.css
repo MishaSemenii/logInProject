@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  font-family: "Nunito Sans";
 }
 .container {
   display: flex;
@@ -8,4 +9,123 @@ body {
   height: 100vh;
   width: 50%;
   object-fit: cover;
+}
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  color: #525252;
+}
+.subTitle {
+  font-weight: 400;
+  font-size: 16px;
+  color: #525252;
+}
+.googleButton {
+  font-weight: 700;
+  font-size: 14px;
+  color: #828282;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 13px;
+  border-radius: 5px;
+  border: 1px solid #e8e8e8;
+  cursor: pointer;
+  margin-top: 32px;
+  margin-bottom: 36px;
+}
+.rightPanel {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rightContent {
+  width: 420px;
+}
+.alternativeText {
+  font-weight: 600;
+  font-size: 12px;
+  color: #a1a1a1;
+  margin-bottom: 36px;
+  display: flex;
+  justify-content: center;
+}
+.firstForm {
+  font-weight: 600;
+  font-size: 14px;
+  color: #828282;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.input {
+  height: 45px;
+  border-radius: 5px;
+  border: 1px solid #ded2d9;
+  padding: 0 10px;
+  color: #828282;
+  &::placeholder {
+    color: #e0e0e0;
+    font-weight: 400;
+    font-size: 14px;
+  }
+  &:focus {
+    border-radius: 5px;
+    outline: 1px solid #ded2d9;
+  }
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.checkboxContainer {
+  font-weight: 400;
+  font-size: 12px;
+  color: #a1a1a1;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.forgotPassword {
+  margin-top: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+.redText {
+  font-weight: 600;
+  font-size: 12px;
+  color: #7f265b;
+}
+.checkbox {
+  margin: 0;
+  accent-color: #7f265b;
+}
+.submitButton {
+  font-weight: 800;
+  font-size: 18px;
+  color: #ffffff;
+  background-color: #7f265b;
+  border-radius: 6px;
+  height: 50px;
+  border: none;
+  cursor: pointer;
+}
+.question {
+  font-weight: 400;
+  font-size: 18px;
+  color: #828282;
+}
+.createAccount {
+  font-weight: 600;
+  font-size: 18px;
+  color: #7f265b;
+}
+.footer {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 30px;
 }
